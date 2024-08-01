@@ -38,7 +38,7 @@ html {
 
 }
 
-.texto p {
+#texto  {
     padding: 20px;
     width: 350px;
 
@@ -55,7 +55,7 @@ html {
 #sobre {
     height: 450px;
     padding: 70px 15%;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 
     display: flex;
     flex-direction: column;
@@ -88,30 +88,34 @@ html {
     margin-bottom: 40px;
 }
 
-.l1,
-.l2 {
+.l1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 500px;
+    width: 875px;
     height: 125px;
 
 }
 
 .icones svg {
-    margin: 2%;
+    margin: 1ch;
     border: 4px solid #CAC0F4;
-    padding: 2%;
+    padding: 1%;
 }
 
-.l2 {
-    width: 375px;
+.l2 img {
+    width: 125px;
     height: 125px;
-    padding: 3px;
+    padding: 1%;
+     border: 4px solid #CAC0F4;
 }
 
 .fundo {
     background-image: url(img/10_FEB_10.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+#portifolio{
+ padding: 50px;
 }
